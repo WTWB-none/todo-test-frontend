@@ -5,9 +5,16 @@ import Header from './components/Header.vue';
 
 </script>
 <template>
-  <Header />
-  <TaskList />
-  <AddTaskButton />
+  <div class="main-wrapper">
+    <Header />
+    <TaskList />
+    <AddTaskButton />
+  </div>
 </template>
 
-<style scoped></style>
+<style scoped>
+.main-wrapper {
+  max-height: 100vh;
+  overflow: hidden;
+}
+</style>
