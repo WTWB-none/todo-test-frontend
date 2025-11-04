@@ -4,4 +4,5 @@ import { init, viewport } from '@tma.js/sdk-vue'
 init();
 await viewport.mount();
 await viewport.requestFullscreen();
+viewport.safeAreaInsetTop();
 createApp(App).mount('#app');
