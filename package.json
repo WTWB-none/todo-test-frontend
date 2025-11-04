@@ -15,7 +15,7 @@
     "format": "prettier --write src/"
   },
   "dependencies": {
-    "@telegram-apps/sdk": "^3.11.8",
+    "@telegram-apps/sdk-vue": "^2.0.31",
     "lucide-vue-next": "^0.552.0",
     "vue": "^3.5.22"
   },
