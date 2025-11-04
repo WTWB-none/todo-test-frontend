@@ -1,6 +1,6 @@
 <template>
   <div class="header-wrapper">
-    <h1>To-Do list 4 all</h1>
+    <h2>To-Do list 4 all</h2>
   </div>
 </template>
 <style scoped>
