@@ -1,7 +1,10 @@
 import { createApp } from 'vue'
 import App from './App.vue'
-import { init, viewport, requestFullscreen } from '@telegram-apps/sdk-vue'
+import { init, miniApp, requestFullscreen } from '@telegram-apps/sdk-vue'
 init();
-viewport.mount();
+if (miniApp.mountSync.isAvailable()) {
+  miniApp.mountSync();
+  miniApp.isMounted();
+}
 requestFullscreen();
 createApp(App).mount('#app')
