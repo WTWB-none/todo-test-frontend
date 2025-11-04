@@ -5,4 +5,5 @@ init();
 await viewport.mount();
 await viewport.requestFullscreen();
 viewport.safeAreaInsetTop();
+viewport.contentSafeAreaInsetTop();
 createApp(App).mount('#app');
