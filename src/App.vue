@@ -5,11 +5,6 @@ import Header from './components/Header.vue';
 import { onMounted } from 'vue';
 import { init, viewport, requestFullscreen } from '@telegram-apps/sdk';
 
-onMounted(() => {
-  init();
-  viewport.mount()
-  viewport.requestFullscreen();
-})
 </script>
 <template>
   <Header />
