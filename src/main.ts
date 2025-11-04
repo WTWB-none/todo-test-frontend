@@ -6,14 +6,8 @@ if (miniApp.mountSync.isAvailable()) {
   miniApp.mountSync();
   miniApp.isMounted();
 }
-
-if (viewport.mount.isAvailable()) {
-  viewport.mount();
-  viewport.isMounted();
-}
-
-if (viewport.requestFullscreen.isAvailable()) {
-  await viewport.requestFullscreen();
-  viewport.isFullscreen();
-}
+viewport.mount();
+viewport.isMounted();
+await viewport.requestFullscreen();
+viewport.isFullscreen();
 createApp(App).mount('#app')
