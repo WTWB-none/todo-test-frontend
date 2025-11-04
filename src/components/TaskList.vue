@@ -16,7 +16,7 @@ onMounted(async () => {
 <style scoped>
 .tasks-wrapper {
   min-width: 100%;
-  max-height: 84vh;
+  max-height: 85vh;
   overflow: scroll;
   display: flex;
   flex-direction: column;
