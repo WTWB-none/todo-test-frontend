@@ -11,7 +11,7 @@
   color: white;
   background: linear-gradient(45deg, #a020f0 25%, #0077b6);
   padding: 0;
-  padding-top: 2em;
+  padding-top: 3em;
   margin: 0;
   min-width: 100%;
   margin-bottom: 1em;
